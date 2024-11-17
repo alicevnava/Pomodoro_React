@@ -1,0 +1,73 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Quicksand";
+}
+
+.container {
+  background-color: #3cb9a2ca;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.5s ease;
+}
+
+.timer {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.controls button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.log {
+  margin-top: 20px;
+}
+
+#log-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+input {
+  border-radius: 7px;
+  border: none;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.container {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.5s ease;
+}
+
+.container.lendo {
+  background-color: #f07167;
+}
+
+.container.refletir {
+  background-color: #ffbf69;
+}
+
+.container.reler {
+  background-color: #0081a7;
+}
